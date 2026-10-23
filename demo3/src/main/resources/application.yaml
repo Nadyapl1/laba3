@@ -1,0 +1,25 @@
+
+spring:
+  application:
+    name: "1БАС24005"
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/internal_procurement
+    username: postgres
+    password: "1234"
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8081
+
+application:
+  lab:
+    task: 3
+    topic: internal-procurement
