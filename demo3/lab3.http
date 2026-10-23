@@ -1,9 +1,0 @@
-
-POST http://localhost:8081/api/users
-Content-Type: application/json
-
-{
-  "name": "Иван Петров",
-  "email": "ivan.petrov@example.com",
-  "role": "MANAGER"
-}
